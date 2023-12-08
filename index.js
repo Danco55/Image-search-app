@@ -47,7 +47,7 @@ formEl.addEventListener("submit", (event) => {
   event.preventDefault();
   page = 1;
   searchImages();
-});
+});  
 
 showMoreButtonEl.addEventListener("click", () => {
   searchImages();
